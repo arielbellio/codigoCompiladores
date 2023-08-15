@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 /**
  * Tests for App class.
  */
-public class AppTest {
+public class EncerramentoQuadrimestreTest {
 
     @Test
     public void isGreetingHelloWorld() {
-        Assertions.assertEquals("Hello World!", new App().sayHello());
+        Assertions.assertEquals("Hello World!", new EncerramentoQuadrimestre());
     }
 }
